@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AsyncImageView.h"
 
 @interface ViewController : UIViewController
 
-@property (nonatomic, weak) IBOutlet UIImageView * imageView;
+@property (nonatomic, weak, setter = setImageURL:) IBOutlet AsyncImageView * imageView;
 
 @end

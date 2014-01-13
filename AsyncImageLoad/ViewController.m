@@ -8,8 +8,10 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+#define IMAGE_URL @"http://www.online-image-editor.com/styles/2013/images/example_image.png"
+#define NYTIMES_IMAGE_URL @"http://www.hhhta.com/wp-content/uploads/2013/08/nyt-t.gif"
 
+@interface ViewController ()
 @end
 
 @implementation ViewController
@@ -19,8 +21,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [self.imageView setImageURL: NYTIMES_IMAGE_URL];
 }
-
 
 @end

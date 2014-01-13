@@ -21,6 +21,8 @@
 		58DBE5B41884A0BD0083B0B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DBE5961884A0BD0083B0B0 /* UIKit.framework */; };
 		58DBE5BC1884A0BD0083B0B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 58DBE5BA1884A0BD0083B0B0 /* InfoPlist.strings */; };
 		58DBE5BE1884A0BD0083B0B0 /* AsyncImageLoadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DBE5BD1884A0BD0083B0B0 /* AsyncImageLoadTests.m */; };
+		58DBE5C81884A65C0083B0B0 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 58DBE5C71884A65C0083B0B0 /* images.jpg */; };
+		58DBE5CB1884A8390083B0B0 /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DBE5CA1884A8390083B0B0 /* AsyncImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		58DBE5B91884A0BD0083B0B0 /* AsyncImageLoadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AsyncImageLoadTests-Info.plist"; sourceTree = "<group>"; };
 		58DBE5BB1884A0BD0083B0B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		58DBE5BD1884A0BD0083B0B0 /* AsyncImageLoadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AsyncImageLoadTests.m; sourceTree = "<group>"; };
+		58DBE5C71884A65C0083B0B0 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		58DBE5C91884A8390083B0B0 /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		58DBE5CA1884A8390083B0B0 /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +117,12 @@
 		58DBE5981884A0BD0083B0B0 /* AsyncImageLoad */ = {
 			isa = PBXGroup;
 			children = (
+				58DBE5C71884A65C0083B0B0 /* images.jpg */,
 				58DBE5A11884A0BD0083B0B0 /* AppDelegate.h */,
 				58DBE5A21884A0BD0083B0B0 /* AppDelegate.m */,
 				58DBE5A41884A0BD0083B0B0 /* Main.storyboard */,
+				58DBE5C91884A8390083B0B0 /* AsyncImageView.h */,
+				58DBE5CA1884A8390083B0B0 /* AsyncImageView.m */,
 				58DBE5A71884A0BD0083B0B0 /* ViewController.h */,
 				58DBE5A81884A0BD0083B0B0 /* ViewController.m */,
 				58DBE5AA1884A0BD0083B0B0 /* Images.xcassets */,
@@ -231,6 +239,7 @@
 				58DBE5AB1884A0BD0083B0B0 /* Images.xcassets in Resources */,
 				58DBE59D1884A0BD0083B0B0 /* InfoPlist.strings in Resources */,
 				58DBE5A61884A0BD0083B0B0 /* Main.storyboard in Resources */,
+				58DBE5C81884A65C0083B0B0 /* images.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +261,7 @@
 				58DBE5A91884A0BD0083B0B0 /* ViewController.m in Sources */,
 				58DBE5A31884A0BD0083B0B0 /* AppDelegate.m in Sources */,
 				58DBE59F1884A0BD0083B0B0 /* main.m in Sources */,
+				58DBE5CB1884A8390083B0B0 /* AsyncImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
